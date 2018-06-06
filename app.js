@@ -39,8 +39,6 @@ const RECEPTOR_STATIC_ROUTE_NAME = 'receptor';
 const STAT_STATIC_ROOT = `${__dirname}/static/stat`;
 const STAT_STATIC_ROUTE_NAME = 'stat';
 
-let storyId;
-
 /**
  * koa-bodyparser中间件可以把koa2上下文的formData数据解析到ctx.request.body中
  */
@@ -118,8 +116,6 @@ app.use(
 app
   .use(appRoutes.routes())
   .use(appRoutes.allowedMethods());
-
-
 
 http.createServer(app.callback()).listen(3000);
 console.log('The event tracker is listening on port 3000');
