@@ -8,7 +8,7 @@
     "start": "node app.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "GX innovation lab",
   "license": "ISC",
   "dependencies": {
     "koa": "^2.5.1",
