@@ -1,7 +1,7 @@
 {
   "name": "eventTracker",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.1.0",
+  "description": "A simple tool developed for the client event tracking work of GX innovation lab design team.",
   "main": "index.js",
   "scripts": {
     "dev": "./node_modules/.bin/nodemon app.js",
