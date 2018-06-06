@@ -1,2 +1,2 @@
 # eventTracker
-A simple tool developed for the design team of GX innovation lab.
+A simple tool developed for the client event tracking work of GX innovation lab design team.
